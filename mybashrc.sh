@@ -19,3 +19,4 @@ gpg-connect-agent updatestartuptty /bye > /dev/null
 #AWS cli shortcut
 alias s3ls='cmd="aws s3 ls s3://philippeg-dev-bucket/"; echo "$cmd"; history -s -- "$cmd"; eval "$cmd"'
 alias ssologin="echo aws sso login | xargs -I{} sh -c 'echo + {}; {}'"
+alias activatepytorch="source /opt/venvs/pytorch/bin/activate"
